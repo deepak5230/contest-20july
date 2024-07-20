@@ -55,13 +55,13 @@ function Calculator() {
           type="text"
           value={num1}
           onChange={(e) => setNum1(e.target.value)}
-          placeholder="Enter first number"
+          placeholder="Num 1"
         />
         <input
           type="text"
           value={num2}
           onChange={(e) => setNum2(e.target.value)}
-          placeholder="Enter second number"
+          placeholder="Num 2"
         />
         <div className="buttons">
           <button onClick={handleAddition}>+</button>
